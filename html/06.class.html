@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Class 우선순위</title>
+	<style>
+		/* 
+		>     : 자식선택자
+		space : 자손선택자
+		*/
+		html, body, h1, h2, h3, h4, h5, p, div {margin: 0; padding: 0;}
+		.wrapper {background-color: rosybrown; padding: 24px;}
+		.wrapper .wrap {background-color: sandybrown; padding: 24px; width: 800px; margin: 0 auto;}
+		.wrapper .wrap .box {background-color: seagreen; width: 100px; height: 100px; margin: 12px;}
+	</style>
+</head>
+<body>
+	<!-- .wrapper>.wrap>.box.box$*5 -->
+	<div class="wrapper">
+		<div class="wrap">
+			<div class="box box1">가나다라</div>
+			<div class="box box2"></div>
+			<div class="box box3"></div>
+			<div class="box box4"></div>
+			<div class="box box5"></div>
+		</div>
+	</div>
+</body>
+</html>
