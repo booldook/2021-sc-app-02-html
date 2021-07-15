@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Box 쌓기</title>
+	<style>
+		html, body, h1, h2, h3, h4, h5, p, div {margin: 0; padding: 0;}
+		.container {background-color: pink; padding: 10px;}
+		.container .wrapper {background-color: royalblue; padding: 10px; width: 800px; margin: 0 auto;}
+		.container .wrapper .wrap {background-color: seagreen; padding: 10px; margin: 0 auto; width: 120px;}
+		.container .wrapper .wrap .box {background-color: sienna; width: 100px; height: 100px; margin: 10px;}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="wrapper">
+			<div class="wrap">
+				가나다라
+				<div class="box">가나다라</div>
+				<div class="box"></div>
+				<div class="box"></div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
