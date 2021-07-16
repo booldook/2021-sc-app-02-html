@@ -16,3 +16,7 @@ a:active  : 마우스 클릭하고 있는 동안
 .header .navi-wrap {float: right;}
 .header .navi-wrap .navi {float: left; padding: 12px 16px;}
 .header .navi-wrap .navi:hover {background-color: grey;}
+
+.after-wrap {border: 10px solid red;}
+.after-wrap::before {content: 'ABCD'; display: block; background-color: turquoise;}
+.after-wrap::after {content: '1234'; display: block; background-color: violet;}
