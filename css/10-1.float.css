@@ -1,0 +1,13 @@
+/* 
+a:link    : 기본컬러
+a:visited : 방문했던 페이지
+a:hover   : 마우스 오버시
+a:active  : 마우스 클릭하고 있는 동안
+*/
+
+.header {background-color: black; color: white;}
+.header a {text-decoration: none;}
+.header a:link {color: beige;}
+.header a:visited {color: white;}
+.header a:hover {color: khaki;}
+.header a:active {color: gold;}
